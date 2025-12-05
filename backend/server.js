@@ -18,10 +18,10 @@ app.use(express.json());
 // Routes
 app.use("/api", router);
 
-// Root route
-app.get("/", (req, res) => {
-  res.send("Server is running!");
-});
+// // Root route
+// app.get("/", (req, res) => {
+//   res.send("Server is running!");
+// });
 
 
 const PORT = process.env.PORT || 4000;
